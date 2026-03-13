@@ -1,21 +1,17 @@
-# Python virtual environment
+# Python
 venv/
-
-# Python cache
 __pycache__/
-*.pyc
 
-# IDE files
+# IDE
 .idea/
 
 # Database
-*.db
+events.db
 
 # Terraform
-*.tfstate
-*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
 .terraform/
-.terraform.lock.hcl
 
-# OS files
-.DS_Store
+# Environment
+.env
