@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+
+# IDE
+.idea/
+
+# Database
+events.db
+
+# Terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Environment
+.env
